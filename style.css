@@ -1,0 +1,146 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+body {
+  font-family: 'Mukta', sans-serif;
+  color: #222;
+  font-size: 18px;
+  background-color: rgb(240,240,240);
+  font-weight: 100;
+  line-height: 1.5;
+} 
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-decoration: underline;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+img {   
+    width: 20%;
+    height: 20%;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+a:hover {
+    text-decoration: underline;
+    /* color: aqua; */
+}
+
+a {
+  color: #222;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.list-inline{
+  display: inline-block;
+  padding: 10px 10px;
+  list-style: none;
+}
+
+.list-inline-top {
+  display: inline-block;
+  padding: 0;
+  list-style: none;
+}
+.circular--landscape {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--landscape img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+}
+
+.card {
+  background: white;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 20px 20px;
+  width: 700px;
+  margin: 20px auto;
+}
+
+.btn {
+  background-color: rgb(255,224,0) ; /* Green */
+  /* border: 1px solid black; */
+  padding: 8px 40px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15px;
+}
+
+.btn:hover {
+  border: 1px solid bisque;
+  background-color; ;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    background: white;                         /* White background */
+    padding: 30px;                             /* Internal space */
+    border-radius: 4px;                        /* Small radius */
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    margin: 20px 20px;
+    width: 700px;
+    margin: 20px auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    background: white;                         /* White background */
+    padding: 30px;                             /* Internal space */
+    border-radius: 4px;                        /* Small radius */
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    margin: 20px 20px;
+    width: 500px;
+    margin: 20px auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    background: white;                         /* White background */
+    padding: 30px;                             /* Internal space */
+    border-radius: 4px;                        /* Small radius */
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    margin: 20px 20px;
+    width: 280px;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 300px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    background: white;                         /* White background */
+    padding: 30px;                             /* Internal space */
+    border-radius: 4px;                        /* Small radius */
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    margin: 20px 20px;
+    width: 225px;
+    margin: 20px auto;
+  }
+}
